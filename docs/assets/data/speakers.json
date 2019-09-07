@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Krishnachytanya Ayyagari (KC)",
+        "designation": "Global Programs Manager (Startup Programs), Google",
+        "dp": "https://drive.google.com/file/d/1Z5aZIqLXB2xSz5Npy6aLl_xxcE08vn5S/view?usp=sharing",
+        "desc": "KC is an Ecosystem Manager at Google and takes care of the Google Cloud startup ecosystem in India.",
+        "twitter": "https://twitter.com/kc_ayyagari",
+        "linkedin": "https://www.linkedin.com/in/findkc"
+    },
+    {
+        "name": "Sathish VJ",
+        "designation": "Google Developer Expert (GDE) | GCP 6x certified",
+        "dp": "https://drive.google.com/file/d/1-JDcDBqEb640teKHReKFyn4K1toBuzBv/view?usp=sharing",
+        "desc": "Sathish is a Google Developer Expert (GDE), Google Cloud Authorized Trainer & certified on all Google Cloud technical certifications (6x certified).",
+        "twitter": "https://twitter.com/sathishvj",
+        "linkedin": "https://www.linkedin.com/in/sathishvj"
+    },
+    {
+        "name": "Aravind Putrevu",
+        "designation": "Developer Advocate, Elastic",
+        "dp": "https://drive.google.com/file/d/1xG5ZCvkmPC_LmZS6k4N-I3oMc3u7-qi1/view?usp=sharing",
+        "desc": "Aravind is a Developer Advocate at Elastic and looks after the Developer Relation function of India.",
+        "twitter": "https://twitter.com/aravindputrevu",
+        "linkedin": "https://www.linkedin.com/in/aravindputrevu"
+    },
+    {
+        "name": "Kamesh Sampath",
+        "designation": "Google Developer Expert (GDE) | Principal Software Engineer, Red Hat",
+        "dp": "https://drive.google.com/file/d/1x7noVisJPECwO84ukvlfMDThuxEYuGF6/view?usp=sharing",
+        "desc": "Kamesh is a Google Developer Expert (GDE) & Principal Software Engineer at Red Hat.",
+        "twitter": "https://twitter.com/kamesh_sampath",
+        "linkedin": "https://linkedin.com/in/kameshsampath"
+    },
+    {
+        "name": "Aditya Patawari",
+        "designation": "Google Developer Expert (GDE) | Founder, Devops Nexus",
+        "dp": "https://drive.google.com/file/d/17Scg1oEJCfpb8ZD52NqWvl_v7ta87uur/view?usp=sharing",
+        "desc": "Aditya is a Google Developer Expert (GDE) & Founder of Devops Nexus.",
+        "twitter": "https://twitter.com/adityapatawari",
+        "linkedin": "https://www.linkedin.com/in/adityapatawari"
+    },
+    {
+        "name": "Krishna Kumar",
+        "designation": "CNCF Ambassador | Chief Cloud Architect, Huawei India",
+        "dp": "https://drive.google.com/file/d/1C1QZBZNUXbzg8rKcsqQxtgrs4ZDm_Ui-/view?usp=sharing",
+        "desc": "Krishna Kumar is CNCF Ambassador & Chief Cloud Architect Huawei India.",
+        "twitter": "https://twitter.com/Krish_00",
+        "linkedin": "https://www.linkedin.com/in/krishna00"
+    },
+    {
+        "name": "Pradeep Patil",
+        "designation": "Technical Lead, Bridgei2i",
+        "dp": "https://drive.google.com/file/d/1ehetF9rPSUweeWflJJm1ejhAqKBu4M_p/view?usp=sharing",
+        "desc": "Pradeep is a Technical Lead at Bridgei2i & certified on Google Cloud technical certifications (GCP 2x certified).",
+        "twitter": "https://twitter.com/pradeeppatil21",
+        "linkedin": "https://www.linkedin.com/in/pradeep-patil-5301aa49"
+    },
+    {
+        "name": "Jayesh Bapu Ahire",
+        "designation": "AI Researcher | Organizer of the Pune Elasticsearch User Group",
+        "dp": "https://drive.google.com/file/d/1CmKrZzok9KYWIq9QVW7du0NJSQlGgcDR/view?usp=sharing",
+        "desc": "Jayesh is an AI Researcher doing research on NTMâ€™s and Distributed Neural Computers with renowned universities. He is a freelance Cloud consultant and has authored books on Neural Networks, Reinforcement Learning, and Simulation Hypothesis.",
+        "twitter": "https://twitter.com/Jayesh_Ahire1",
+        "linkedin": "https://www.linkedin.com/in/jayesh-ahire"
+    }
+]
+

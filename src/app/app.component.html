@@ -1,0 +1,56 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport
+    role="dialog" mode="over" (click)="drawer.close()">
+    <div class="site-name home-link">
+      <img class="h-100" src="favicon.ico"/>
+    </div>
+    <div class="sidenav-header">
+      <div class="duration mat-headline">September 21st & 22nd, 2019</div>
+      <div class="location mat-subheading-1">Bangalore, India</div>
+    </div>
+    <mat-divider></mat-divider>
+    <mat-nav-list>
+      <a mat-list-item *ngFor="let link of navLinks"
+        routerLinkActive="router-link-active"
+        [routerLink]="link.path">{{link.label}}</a>
+      <a mat-list-item
+        href=" https://gcdcblr.in/index.html"
+        target="_blank" rel="noopener noreferrer">Community Guidelines</a>
+      <a mat-list-item
+        href="https://konfhub.com/devfest2019"
+        target="_blank" rel="noopener noreferrer">
+        </a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content cdkScrollable #body>
+    <mat-toolbar #topBar
+      class="topbar">
+      <div class="container">
+        <ng-container *ngIf="!(isBreakpoint$ | async); else iconButtons">
+          <a routerLink="/" class="home-link">
+            <img class="h-100" src="../favicon.ico"/>
+          </a>
+          <h2>&nbsp;&nbsp;DevFest Bangalore 2019</h2>
+          <span class="spacer"></span>
+          <a mat-button [attr.aria-label]="link.label | titlecase"
+            *ngFor="let link of navLinks"
+            [routerLink]="link.path"
+            routerLinkActive="mat-stroked-button mat-primary">{{link.label}}</a>
+          <a mat-button
+            href="https://gcdcblr.in/index.html"
+            target="_blank" rel="noopener noreferrer">Community Guidelines</a>
+        </ng-container>
+        <ng-template #iconButtons>
+          <button mat-icon-button aria-label="Toggle sidenav"
+            (click)="drawer.toggle()">
+            <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+          </button>
+        </ng-template>
+      </div>
+    </mat-toolbar>
+    <main>
+      <router-outlet></router-outlet>
+      <app-footer></app-footer>
+    </main>
+  </mat-sidenav-content>
+</mat-sidenav-container>

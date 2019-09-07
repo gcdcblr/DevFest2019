@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; }
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+  $pad: 32px;
+  padding: 0 $pad;
+
+  &.pad-all {
+    padding: $pad;
+  }
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+button, a[class*="-button"] {
+  text-transform: uppercase;
+}
+
+.top-gap {
+  margin-top: 80px;
+  height: 200px;
+
+  .mat-display-2 {
+    margin-bottom: 35px;
+  }
+
+  .description {
+    max-width: 600px;
+    line-height: 1.4;
+  }
+}
+
+.link {
+  color: #3f51b5;
+  text-decoration: none;
+  font-weight: bold;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}

@@ -1,0 +1,135 @@
+[class*="mat-display-"],
+[class*="mat-headline"],
+[class*="mat-title"],
+[class*="mat-subheading-"] {
+  margin: 0;
+}
+
+[class*="mat-stroked-button"] {
+  font-weight: bold;
+}
+
+.master-container {
+  display: grid;
+  row-gap: 64px;
+  margin: 32px 0 64px;
+}
+
+.section-title {
+  margin-bottom: 32px;
+}
+
+.col-2 {
+  display: grid;
+  row-gap: 48px;
+}
+
+.video {
+  width: 100%;
+  min-height: 250px;
+  height: 100%;
+}
+
+.partner-logo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  @media (min-width: 758px) {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  a {
+    display: grid;
+    grid-template-rows: max-content auto;
+    place-items: center;
+  }
+
+  .sponsor-type {
+    text-transform: capitalize;
+    color: #5e5a5a;
+
+    &.principal {
+      color: #4885ed;
+    }
+    &.platinum {
+      color: #000;
+    }
+    &.gold {
+      color: #f4c20d;
+    }
+    &.bronze {
+      color: #d02c2c;
+    }
+  }
+
+  img {
+    width: 100%;
+    max-width: 150px;
+  }
+}
+
+.date {
+  color: rgb(100,100,100);
+  margin-bottom: 8px;
+}
+
+.square-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 48px;
+}
+
+.topic {
+  width: max-content;
+  padding: 7px 21px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+@mixin colorCombination($backgroundColor, $color) {
+  background-color: $backgroundColor;
+  color: $color;
+}
+.yellow {
+  @include colorCombination(rgba(247, 212, 17, 0.15), rgb(228, 180, 25));
+}
+.blue {
+  @include colorCombination(rgba(12, 80, 182,0.15), rgb(12, 80, 182));
+}
+.red {
+  @include colorCombination(rgba(223, 77, 19,0.15), rgb(223, 77, 19));
+}
+.green {
+  @include colorCombination(rgba(11, 184, 83,0.15), rgb(11, 184, 83));
+}
+
+@media (min-width: 600px) {
+  .col-2 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "textArea imageArea";
+    column-gap: 104px;
+
+    & > div {
+      &:first-child {
+        grid-area: textArea;
+      }
+
+      &:last-child {
+        grid-area: imageArea;
+      }
+    }
+
+    &.col-reverse > div {
+      &:first-child {
+        grid-area: imageArea;
+      }
+
+      &:last-child {
+        grid-area: textArea;
+      }
+    }
+  }
+}
