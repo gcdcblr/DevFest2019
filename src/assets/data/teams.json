@@ -10,8 +10,33 @@
         "profileImage": "https://i.ibb.co/2MLzyBf/Akash-Agrawal.jpg"
     },
     {
+        "name": "Aananya",
+        "designation": "Organizer",
+        "profileImage": "https://i.ibb.co/D719VRw/Aananya.jpg"
+    },
+    {
+        "name": "Sayantika Banik",
+        "designation": "Organizer",
+        "profileImage": "https://i.ibb.co/DkCb55C/Sayantika-Banik.jpg"
+    },
+    {
+        "name": "Bhaarat Chetty",
+        "designation": "Organizer",
+        "profileImage": "https://i.ibb.co/y44fyxq/Bhaarat-Chetty.jpg"
+    },
+    {
         "name": "Mounica Narkedamilli",
         "designation": "Organizer",
         "profileImage": "https://i.ibb.co/jZ8gsqQ/Mounica-Narkedamilli.jpg"
+    },
+    {
+        "name": "Vishal Pathik Gupta",
+        "designation": "Organizer",
+        "profileImage": "https://i.ibb.co/tb6wP1y/IMG-20190908-WA0001.jpg"
+    },
+    {
+        "name": "Pavan Kumar",
+        "designation": "Organizer",
+        "profileImage": "https://i.ibb.co/qjFGpCv/Screenshot-20190908-124140-01.jpg"
     }
 ]
